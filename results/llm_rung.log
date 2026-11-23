@@ -1,0 +1,4 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+zenn: 2.602 bits/char（23,209字 / 13,567トークン / 182.5s）
+Token indices sequence length is longer than the specified maximum sequence length for this model (233610 > 131072). Running this sequence through the model will result in indexing errors
+aozora: 4.045 bits/char（315,273字 / 233,610トークン / 3107.3s）

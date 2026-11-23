@@ -1,0 +1,5 @@
+# 動作確認したバージョン（CPU）
+numpy==2.5.2
+torch==2.13.0
+matplotlib==3.11.2
+transformers==4.56.2  # llm_rung.py（LLM の物差し）だけで使用

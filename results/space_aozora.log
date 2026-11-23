@@ -1,0 +1,20 @@
+[aozora] base d=1: valid 7.050 test 7.320 (step 1400, 12,571 params, 315.4s) {}
+[aozora] base d=2: valid 6.738 test 6.989 (step 650, 20,951 params, 299.9s) {}
+[aozora] base d=4: valid 6.353 test 6.576 (step 550, 37,711 params, 310.9s) {}
+[aozora] base d=8: valid 6.019 test 6.249 (step 950, 71,231 params, 303.6s) {}
+[aozora] base d=16: valid 5.794 test 5.998 (step 650, 138,271 params, 310.8s) {}
+[aozora] base d=32: valid 5.692 test 5.879 (step 250, 272,351 params, 233.5s) {}
+[aozora] base d=64: valid 5.641 test 5.827 (step 200, 540,511 params, 140.5s) {}
+[aozora] no_velocity+resonance d=1: valid 7.124 test 7.402 (step 1450, 8,386 params, 2691.5s) {}
+[aozora] no_velocity d=2: valid 7.147 test 7.422 (step 1350, 12,571 params, 321.3s) {}
+[aozora] no_mass d=2: valid 6.961 test 7.238 (step 1450, 16,761 params, 278.6s) {}
+[aozora] base d=2: valid 6.738 test 6.989 (step 650, 20,951 params, 328.4s) {}
+[aozora] emc2 d=2: valid 6.737 test 6.989 (step 650, 20,952 params, 336.0s) {'c2': 0.0271}
+[aozora] relativity d=2: valid 6.715 test 6.979 (step 650, 20,952 params, 663.7s) {'gamma': 1.0445}
+[aozora] tunnel d=2: valid 6.418 test 6.658 (step 1000, 20,952 params, 905.6s) {'tunnel_p': 0.4978}
+[aozora] inertia d=2: valid 6.740 test 7.016 (step 1450, 20,952 params, 125.2s) {'rho': 0.0147}
+[aozora] inertia d=16: valid 5.837 test 6.031 (step 1400, 138,272 params, 146.4s) {'rho': 0.1242}
+Traceback (most recent call last):
+  File "plot_space.py", line 3, in <module>
+    import matplotlib
+ModuleNotFoundError: No module named 'matplotlib'

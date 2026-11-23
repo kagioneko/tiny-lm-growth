@@ -1,0 +1,10 @@
+[zenn_iid] valid lr=0: 4.8622  (1s)
+[zenn_iid] valid lr=1e-05: 4.7677  (5s)
+[zenn_iid] valid lr=3e-05: 4.6855  (3s)
+[zenn_iid] valid lr=0.0001: 4.5761  (3s)
+[zenn_iid] valid lr=0.0003: 4.5014  (3s)
+[zenn_iid] test: 静的 5.3628 → 動的 4.9662（lr=0.0003）
+[zenn_iid] valid lr=0.001: 4.6414  (4s)
+[zenn_iid] valid lr=0.003: 5.1558  (3s)
+[zenn_iid] valid lr=0.01: 5.7533  (3s)
+[zenn_iid] test: 静的 5.3628 → 動的 4.9662（lr=0.0003）

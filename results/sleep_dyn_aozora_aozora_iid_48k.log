@@ -1,0 +1,14 @@
+[aozora_iid_48k] valid none|N0|R0|lr3e-05: 3.8849  (267s)
+[aozora_iid_48k] valid past|N32|R2|lr3e-05: 3.8823  (215s)
+[aozora_iid_48k] valid past|N32|R8|lr3e-05: 3.8836  (277s)
+[aozora_iid_48k] valid past|N128|R2|lr3e-05: 3.8842  (175s)
+[aozora_iid_48k] valid past|N128|R8|lr3e-05: 3.8836  (189s)
+[aozora_iid_48k] valid train|N32|R2|lr3e-05: 3.8747  (194s)
+[aozora_iid_48k] valid train|N32|R8|lr3e-05: 3.8665  (263s)
+[aozora_iid_48k] valid train|N128|R2|lr3e-05: 3.8810  (175s)
+[aozora_iid_48k] valid train|N128|R8|lr3e-05: 3.8758  (298s)
+[aozora_iid_48k] 選んだ設定 train|N32|R8|lr3e-05 → test 3.8851
+[aozora_iid_48k] valid train|N16|R8|lr3e-05: 3.8607  (414s)
+[aozora_iid_48k] valid train|N32|R16|lr3e-05: 3.8643  (645s)
+[aozora_iid_48k] valid train|N16|R16|lr3e-05: 3.8600  (639s)
+[aozora_iid_48k] 選んだ設定 train|N16|R16|lr3e-05 → test 3.8761

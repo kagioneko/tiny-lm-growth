@@ -1,0 +1,17 @@
+{
+ "model": "Qwen/Qwen2.5-0.5B",
+ "zenn": {
+  "bpc": 2.6021922817400407,
+  "chars": 23209,
+  "tokens": 13567,
+  "counted_tokens": 13566,
+  "sec": 182.5
+ },
+ "aozora": {
+  "bpc": 4.045013468680971,
+  "chars": 315273,
+  "tokens": 233610,
+  "counted_tokens": 233609,
+  "sec": 3107.3
+ }
+}

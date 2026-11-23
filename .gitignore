@@ -1,0 +1,12 @@
+.venv/
+.env
+.claude/
+data/
+__pycache__/
+checkpoints/
+results/*.npy
+reviews/
+results/fix1/
+checkpoints_repro/
+results_repro/
+results_shipped/

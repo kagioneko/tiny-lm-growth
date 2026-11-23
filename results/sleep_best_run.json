@@ -1,0 +1,1721 @@
+{
+ "config": {
+  "wake_chars": 20000,
+  "strength": 0.3,
+  "epochs": 60,
+  "eval_every": 1,
+  "seed": 0,
+  "vocab": 1025,
+  "train_chars": 71202,
+  "valid_chars": 12949,
+  "test_chars": 23209
+ },
+ "ladder": {
+  "uniform": 10.001408194392809,
+  "unigram": 7.992376378815101,
+  "bigram_count": 5.707031411203463,
+  "bigram_k": 0.03
+ },
+ "curve": [
+  {
+   "cycle": 0,
+   "chars_read": 0,
+   "valid_bpc": 10.001408194392809,
+   "test_bpc": 10.00140819439281
+  },
+  {
+   "cycle": 1,
+   "epoch": 0,
+   "chars_read": 20000,
+   "valid_bpc": 9.357029258531472,
+   "test_bpc": 9.416454257018406
+  },
+  {
+   "cycle": 2,
+   "epoch": 0,
+   "chars_read": 40000,
+   "valid_bpc": 8.76287698176587,
+   "test_bpc": 8.86547612332602
+  },
+  {
+   "cycle": 3,
+   "epoch": 0,
+   "chars_read": 60000,
+   "valid_bpc": 8.190958673490037,
+   "test_bpc": 8.328622769144276
+  },
+  {
+   "cycle": 4,
+   "epoch": 0,
+   "chars_read": 71201,
+   "valid_bpc": 7.707484940694025,
+   "test_bpc": 7.873697724468168
+  },
+  {
+   "cycle": 5,
+   "epoch": 1,
+   "chars_read": 91201,
+   "valid_bpc": 7.1912606707455105,
+   "test_bpc": 7.407808301031839
+  },
+  {
+   "cycle": 6,
+   "epoch": 1,
+   "chars_read": 111201,
+   "valid_bpc": 6.763816130865134,
+   "test_bpc": 7.012102923184071
+  },
+  {
+   "cycle": 7,
+   "epoch": 1,
+   "chars_read": 131201,
+   "valid_bpc": 6.409592757919464,
+   "test_bpc": 6.679460669069132
+  },
+  {
+   "cycle": 8,
+   "epoch": 1,
+   "chars_read": 142402,
+   "valid_bpc": 6.174397742863633,
+   "test_bpc": 6.46053796008295
+  },
+  {
+   "cycle": 9,
+   "epoch": 2,
+   "chars_read": 162402,
+   "valid_bpc": 5.963675399248552,
+   "test_bpc": 6.289476675728479
+  },
+  {
+   "cycle": 10,
+   "epoch": 2,
+   "chars_read": 182402,
+   "valid_bpc": 5.859242790394806,
+   "test_bpc": 6.210021488905593
+  },
+  {
+   "cycle": 11,
+   "epoch": 2,
+   "chars_read": 202402,
+   "valid_bpc": 5.826424489301484,
+   "test_bpc": 6.196908609517639
+  },
+  {
+   "cycle": 12,
+   "epoch": 2,
+   "chars_read": 213603,
+   "valid_bpc": 5.888745105789433,
+   "test_bpc": 6.2772615464986385
+  },
+  {
+   "cycle": 13,
+   "epoch": 3,
+   "chars_read": 233603,
+   "valid_bpc": 5.930892370921163,
+   "test_bpc": 6.365607187472365
+  },
+  {
+   "cycle": 14,
+   "epoch": 3,
+   "chars_read": 253603,
+   "valid_bpc": 6.033754654246103,
+   "test_bpc": 6.50145620771215
+  },
+  {
+   "cycle": 15,
+   "epoch": 3,
+   "chars_read": 273603,
+   "valid_bpc": 6.16098948421528,
+   "test_bpc": 6.655971908257024
+  },
+  {
+   "cycle": 16,
+   "epoch": 3,
+   "chars_read": 284804,
+   "valid_bpc": 6.351095872443817,
+   "test_bpc": 6.869080971896523
+  },
+  {
+   "cycle": 17,
+   "epoch": 4,
+   "chars_read": 304804,
+   "valid_bpc": 6.477731133884187,
+   "test_bpc": 7.04656556823093
+  },
+  {
+   "cycle": 18,
+   "epoch": 4,
+   "chars_read": 324804,
+   "valid_bpc": 6.6444384835362875,
+   "test_bpc": 7.249895197159142
+  },
+  {
+   "cycle": 19,
+   "epoch": 4,
+   "chars_read": 344804,
+   "valid_bpc": 6.817839110776739,
+   "test_bpc": 7.452760452806023
+  },
+  {
+   "cycle": 20,
+   "epoch": 4,
+   "chars_read": 356005,
+   "valid_bpc": 7.048347563174171,
+   "test_bpc": 7.707509617297386
+  },
+  {
+   "cycle": 21,
+   "epoch": 5,
+   "chars_read": 376005,
+   "valid_bpc": 7.199331390297548,
+   "test_bpc": 7.910795604476241
+  },
+  {
+   "cycle": 22,
+   "epoch": 5,
+   "chars_read": 396005,
+   "valid_bpc": 7.38642717245688,
+   "test_bpc": 8.136208306977158
+  },
+  {
+   "cycle": 23,
+   "epoch": 5,
+   "chars_read": 416005,
+   "valid_bpc": 7.575386883927232,
+   "test_bpc": 8.35559847000433
+  },
+  {
+   "cycle": 24,
+   "epoch": 5,
+   "chars_read": 427206,
+   "valid_bpc": 7.822160564649605,
+   "test_bpc": 8.627452617775281
+  },
+  {
+   "cycle": 25,
+   "epoch": 6,
+   "chars_read": 447206,
+   "valid_bpc": 7.982506059941847,
+   "test_bpc": 8.84095626263857
+  },
+  {
+   "cycle": 26,
+   "epoch": 6,
+   "chars_read": 467206,
+   "valid_bpc": 8.17823029279478,
+   "test_bpc": 9.076408036827484
+  },
+  {
+   "cycle": 27,
+   "epoch": 6,
+   "chars_read": 487206,
+   "valid_bpc": 8.37420234453095,
+   "test_bpc": 9.303623235460952
+  },
+  {
+   "cycle": 28,
+   "epoch": 6,
+   "chars_read": 498407,
+   "valid_bpc": 8.628913793464028,
+   "test_bpc": 9.584065673442089
+  },
+  {
+   "cycle": 29,
+   "epoch": 7,
+   "chars_read": 518407,
+   "valid_bpc": 8.793611888038985,
+   "test_bpc": 9.80244751346092
+  },
+  {
+   "cycle": 30,
+   "epoch": 7,
+   "chars_read": 538407,
+   "valid_bpc": 8.993440496853825,
+   "test_bpc": 10.042919578375242
+  },
+  {
+   "cycle": 31,
+   "epoch": 7,
+   "chars_read": 558407,
+   "valid_bpc": 9.192839559925666,
+   "test_bpc": 10.274095570477922
+  },
+  {
+   "cycle": 32,
+   "epoch": 7,
+   "chars_read": 569608,
+   "valid_bpc": 9.451602834114034,
+   "test_bpc": 10.558934282056352
+  },
+  {
+   "cycle": 33,
+   "epoch": 8,
+   "chars_read": 589608,
+   "valid_bpc": 9.618424591999215,
+   "test_bpc": 10.77977452204215
+  },
+  {
+   "cycle": 34,
+   "epoch": 8,
+   "chars_read": 609608,
+   "valid_bpc": 9.820263304848332,
+   "test_bpc": 11.02280754474493
+  },
+  {
+   "cycle": 35,
+   "epoch": 8,
+   "chars_read": 629608,
+   "valid_bpc": 10.021386333761818,
+   "test_bpc": 11.256058862041344
+  },
+  {
+   "cycle": 36,
+   "epoch": 8,
+   "chars_read": 640809,
+   "valid_bpc": 10.282265665900404,
+   "test_bpc": 11.543193726155433
+  },
+  {
+   "cycle": 37,
+   "epoch": 9,
+   "chars_read": 660809,
+   "valid_bpc": 10.450278719556692,
+   "test_bpc": 11.765503379951694
+  },
+  {
+   "cycle": 38,
+   "epoch": 9,
+   "chars_read": 680809,
+   "valid_bpc": 10.653197457690764,
+   "test_bpc": 12.010026159425596
+  },
+  {
+   "cycle": 39,
+   "epoch": 9,
+   "chars_read": 700809,
+   "valid_bpc": 10.855298398824345,
+   "test_bpc": 12.244547563690075
+  },
+  {
+   "cycle": 40,
+   "epoch": 9,
+   "chars_read": 712010,
+   "valid_bpc": 11.117329271316473,
+   "test_bpc": 12.53296915589242
+  },
+  {
+   "cycle": 41,
+   "epoch": 10,
+   "chars_read": 732010,
+   "valid_bpc": 11.28612210812366,
+   "test_bpc": 12.756319604005597
+  },
+  {
+   "cycle": 42,
+   "epoch": 10,
+   "chars_read": 752010,
+   "valid_bpc": 11.489686912514047,
+   "test_bpc": 13.001837850264172
+  },
+  {
+   "cycle": 43,
+   "epoch": 10,
+   "chars_read": 772010,
+   "valid_bpc": 11.692429725485038,
+   "test_bpc": 13.237263001674823
+  },
+  {
+   "cycle": 44,
+   "epoch": 10,
+   "chars_read": 783211,
+   "valid_bpc": 11.955109108411735,
+   "test_bpc": 13.526459404538796
+  },
+  {
+   "cycle": 45,
+   "epoch": 11,
+   "chars_read": 803211,
+   "valid_bpc": 12.124438302717786,
+   "test_bpc": 13.75057686883976
+  },
+  {
+   "cycle": 46,
+   "epoch": 11,
+   "chars_read": 823211,
+   "valid_bpc": 12.328411132780003,
+   "test_bpc": 13.996791427521027
+  },
+  {
+   "cycle": 47,
+   "epoch": 11,
+   "chars_read": 843211,
+   "valid_bpc": 12.531611669069637,
+   "test_bpc": 14.23288955916907
+  },
+  {
+   "cycle": 48,
+   "epoch": 11,
+   "chars_read": 854412,
+   "valid_bpc": 12.79466103373833,
+   "test_bpc": 14.522570421129743
+  },
+  {
+   "cycle": 49,
+   "epoch": 12,
+   "chars_read": 874412,
+   "valid_bpc": 12.964346285519229,
+   "test_bpc": 14.747224980570499
+  },
+  {
+   "cycle": 50,
+   "epoch": 12,
+   "chars_read": 894412,
+   "valid_bpc": 13.168575988701354,
+   "test_bpc": 14.993912136544699
+  },
+  {
+   "cycle": 51,
+   "epoch": 12,
+   "chars_read": 914412,
+   "valid_bpc": 13.372102489994525,
+   "test_bpc": 15.230492537018542
+  },
+  {
+   "cycle": 52,
+   "epoch": 12,
+   "chars_read": 925613,
+   "valid_bpc": 13.635361768210789,
+   "test_bpc": 15.520475971583826
+  },
+  {
+   "cycle": 53,
+   "epoch": 13,
+   "chars_read": 945613,
+   "valid_bpc": 13.805269253087115,
+   "test_bpc": 15.745479268703024
+  },
+  {
+   "cycle": 54,
+   "epoch": 13,
+   "chars_read": 965613,
+   "valid_bpc": 14.009655373651864,
+   "test_bpc": 15.992468896867061
+  },
+  {
+   "cycle": 55,
+   "epoch": 13,
+   "chars_read": 985613,
+   "valid_bpc": 14.213401693693843,
+   "test_bpc": 16.229371144851385
+  },
+  {
+   "cycle": 56,
+   "epoch": 13,
+   "chars_read": 996814,
+   "valid_bpc": 14.47677844358477,
+   "test_bpc": 16.519538610387357
+  },
+  {
+   "cycle": 57,
+   "epoch": 14,
+   "chars_read": 1016814,
+   "valid_bpc": 14.646817276820535,
+   "test_bpc": 16.744753773448288
+  },
+  {
+   "cycle": 58,
+   "epoch": 14,
+   "chars_read": 1036814,
+   "valid_bpc": 14.851295027438196,
+   "test_bpc": 16.991926184557176
+  },
+  {
+   "cycle": 59,
+   "epoch": 14,
+   "chars_read": 1056814,
+   "valid_bpc": 15.055179811365912,
+   "test_bpc": 17.229028609061114
+  },
+  {
+   "cycle": 60,
+   "epoch": 14,
+   "chars_read": 1068015,
+   "valid_bpc": 15.318621414776572,
+   "test_bpc": 17.519304172959934
+  },
+  {
+   "cycle": 61,
+   "epoch": 15,
+   "chars_read": 1088015,
+   "valid_bpc": 15.488734969135145,
+   "test_bpc": 17.744642020857963
+  },
+  {
+   "cycle": 62,
+   "epoch": 15,
+   "chars_read": 1108015,
+   "valid_bpc": 15.693264725610865,
+   "test_bpc": 17.991920112025554
+  },
+  {
+   "cycle": 63,
+   "epoch": 15,
+   "chars_read": 1128015,
+   "valid_bpc": 15.897231825063127,
+   "test_bpc": 18.22914039198182
+  },
+  {
+   "cycle": 64,
+   "epoch": 15,
+   "chars_read": 1139216,
+   "valid_bpc": 16.160708875489743,
+   "test_bpc": 18.519477513868804
+  },
+  {
+   "cycle": 65,
+   "epoch": 16,
+   "chars_read": 1159216,
+   "valid_bpc": 16.33086393699631,
+   "test_bpc": 18.74488424746078
+  },
+  {
+   "cycle": 66,
+   "epoch": 16,
+   "chars_read": 1179216,
+   "valid_bpc": 16.535422576705106,
+   "test_bpc": 18.992221659325253
+  },
+  {
+   "cycle": 67,
+   "epoch": 16,
+   "chars_read": 1199216,
+   "valid_bpc": 16.73943667179158,
+   "test_bpc": 19.2295088077482
+  },
+  {
+   "cycle": 68,
+   "epoch": 16,
+   "chars_read": 1210417,
+   "valid_bpc": 17.002932972727418,
+   "test_bpc": 19.519880206821075
+  },
+  {
+   "cycle": 69,
+   "epoch": 17,
+   "chars_read": 1230417,
+   "valid_bpc": 17.173110773117212,
+   "test_bpc": 19.745324912190558
+  },
+  {
+   "cycle": 70,
+   "epoch": 17,
+   "chars_read": 1250417,
+   "valid_bpc": 17.377685240218014,
+   "test_bpc": 19.992695024602565
+  },
+  {
+   "cycle": 71,
+   "epoch": 17,
+   "chars_read": 1270417,
+   "valid_bpc": 17.581725496083525,
+   "test_bpc": 20.23001925958537
+  },
+  {
+   "cycle": 72,
+   "epoch": 17,
+   "chars_read": 1281618,
+   "valid_bpc": 17.845232212018814,
+   "test_bpc": 20.5204094734646
+  },
+  {
+   "cycle": 73,
+   "epoch": 18,
+   "chars_read": 1301618,
+   "valid_bpc": 18.015422372468652,
+   "test_bpc": 20.745874890531777
+  },
+  {
+   "cycle": 74,
+   "epoch": 18,
+   "chars_read": 1321618,
+   "valid_bpc": 18.220005445097303,
+   "test_bpc": 20.993262840946198
+  },
+  {
+   "cycle": 75,
+   "epoch": 18,
+   "chars_read": 1341618,
+   "valid_bpc": 18.424060049720516,
+   "test_bpc": 21.230607374989276
+  },
+  {
+   "cycle": 76,
+   "epoch": 18,
+   "chars_read": 1352819,
+   "valid_bpc": 18.687572388346823,
+   "test_bpc": 21.521007828917682
+  },
+  {
+   "cycle": 77,
+   "epoch": 19,
+   "chars_read": 1372819,
+   "valid_bpc": 18.857769238391427,
+   "test_bpc": 21.746484477077875
+  },
+  {
+   "cycle": 78,
+   "epoch": 19,
+   "chars_read": 1392819,
+   "valid_bpc": 19.062356969413692,
+   "test_bpc": 21.993882100924417
+  },
+  {
+   "cycle": 79,
+   "epoch": 19,
+   "chars_read": 1412819,
+   "valid_bpc": 19.26641937866753,
+   "test_bpc": 22.231237663403803
+  },
+  {
+   "cycle": 80,
+   "epoch": 19,
+   "chars_read": 1424020,
+   "valid_bpc": 19.52993474918333,
+   "test_bpc": 22.521643663678777
+  },
+  {
+   "cycle": 81,
+   "epoch": 20,
+   "chars_read": 1444020,
+   "valid_bpc": 19.70013521131143,
+   "test_bpc": 22.747126382425186
+  },
+  {
+   "cycle": 82,
+   "epoch": 20,
+   "chars_read": 1464020,
+   "valid_bpc": 19.90472545793561,
+   "test_bpc": 22.994529235129455
+  },
+  {
+   "cycle": 83,
+   "epoch": 20,
+   "chars_read": 1484020,
+   "valid_bpc": 20.108792092788974,
+   "test_bpc": 23.231890764893883
+  },
+  {
+   "cycle": 84,
+   "epoch": 20,
+   "chars_read": 1495221,
+   "valid_bpc": 20.372309097111337,
+   "test_bpc": 23.522299761219315
+  },
+  {
+   "cycle": 85,
+   "epoch": 21,
+   "chars_read": 1515221,
+   "valid_bpc": 20.54251150711845,
+   "test_bpc": 23.747785755476542
+  },
+  {
+   "cycle": 86,
+   "epoch": 21,
+   "chars_read": 1535221,
+   "valid_bpc": 20.74710311040978,
+   "test_bpc": 23.995191429586086
+  },
+  {
+   "cycle": 87,
+   "epoch": 21,
+   "chars_read": 1555221,
+   "valid_bpc": 20.95117202734612,
+   "test_bpc": 24.23255618095089
+  },
+  {
+   "cycle": 88,
+   "epoch": 21,
+   "chars_read": 1566422,
+   "valid_bpc": 21.214689911774336,
+   "test_bpc": 24.522966793327335
+  },
+  {
+   "cycle": 89,
+   "epoch": 22,
+   "chars_read": 1586422,
+   "valid_bpc": 21.384893371485475,
+   "test_bpc": 24.748454553280343
+  },
+  {
+   "cycle": 90,
+   "epoch": 22,
+   "chars_read": 1606422,
+   "valid_bpc": 21.58948570590456,
+   "test_bpc": 24.995861748315765
+  },
+  {
+   "cycle": 91,
+   "epoch": 22,
+   "chars_read": 1626422,
+   "valid_bpc": 21.79355585362444,
+   "test_bpc": 25.23322823684839
+  },
+  {
+   "cycle": 92,
+   "epoch": 22,
+   "chars_read": 1637623,
+   "valid_bpc": 22.057074212061487,
+   "test_bpc": 25.523639720219503
+  },
+  {
+   "cycle": 93,
+   "epoch": 23,
+   "chars_read": 1657623,
+   "valid_bpc": 22.22727823724353,
+   "test_bpc": 25.749128431500885
+  },
+  {
+   "cycle": 94,
+   "epoch": 23,
+   "chars_read": 1677623,
+   "valid_bpc": 22.43187096552536,
+   "test_bpc": 25.996536445992557
+  },
+  {
+   "cycle": 95,
+   "epoch": 23,
+   "chars_read": 1697623,
+   "valid_bpc": 22.63594177654742,
+   "test_bpc": 26.23390387063818
+  },
+  {
+   "cycle": 96,
+   "epoch": 23,
+   "chars_read": 1708824,
+   "valid_bpc": 22.899460390250663,
+   "test_bpc": 26.524315823242805
+  },
+  {
+   "cycle": 97,
+   "epoch": 24,
+   "chars_read": 1728824,
+   "valid_bpc": 23.069664719988314,
+   "test_bpc": 26.749805046943113
+  },
+  {
+   "cycle": 98,
+   "epoch": 24,
+   "chars_read": 1748824,
+   "valid_bpc": 23.27425766040191,
+   "test_bpc": 26.997213502824483
+  },
+  {
+   "cycle": 99,
+   "epoch": 24,
+   "chars_read": 1768824,
+   "valid_bpc": 23.47832882875293,
+   "test_bpc": 27.234581431738505
+  },
+  {
+   "cycle": 100,
+   "epoch": 24,
+   "chars_read": 1780025,
+   "valid_bpc": 23.741847579916108,
+   "test_bpc": 27.52499363707594
+  },
+  {
+   "cycle": 101,
+   "epoch": 25,
+   "chars_read": 1800025,
+   "valid_bpc": 23.9120520736659,
+   "test_bpc": 27.75048313674206
+  },
+  {
+   "cycle": 102,
+   "epoch": 25,
+   "chars_read": 1820025,
+   "valid_bpc": 24.116645128319334,
+   "test_bpc": 27.99789183033658
+  },
+  {
+   "cycle": 103,
+   "epoch": 25,
+   "chars_read": 1840025,
+   "valid_bpc": 24.320716489126497,
+   "test_bpc": 28.235260030839957
+  },
+  {
+   "cycle": 104,
+   "epoch": 25,
+   "chars_read": 1851226,
+   "valid_bpc": 24.58423531430914,
+   "test_bpc": 28.525672372284216
+  },
+  {
+   "cycle": 105,
+   "epoch": 26,
+   "chars_read": 1871226,
+   "valid_bpc": 24.754439896379164,
+   "test_bpc": 28.751162020561193
+  },
+  {
+   "cycle": 106,
+   "epoch": 26,
+   "chars_read": 1891226,
+   "valid_bpc": 24.95903301255072,
+   "test_bpc": 28.998570842167233
+  },
+  {
+   "cycle": 107,
+   "epoch": 26,
+   "chars_read": 1911226,
+   "valid_bpc": 25.163104477002094,
+   "test_bpc": 29.235939188928498
+  },
+  {
+   "cycle": 108,
+   "epoch": 26,
+   "chars_read": 1922427,
+   "valid_bpc": 25.426623342042124,
+   "test_bpc": 29.52635160366681
+  },
+  {
+   "cycle": 109,
+   "epoch": 27,
+   "chars_read": 1942427,
+   "valid_bpc": 25.596827971670937,
+   "test_bpc": 29.751841331969054
+  },
+  {
+   "cycle": 110,
+   "epoch": 27,
+   "chars_read": 1962427,
+   "valid_bpc": 25.801421120968897,
+   "test_bpc": 29.999250222507886
+  },
+  {
+   "cycle": 111,
+   "epoch": 27,
+   "chars_read": 1982427,
+   "valid_bpc": 26.005492641232767,
+   "test_bpc": 30.236618648028468
+  },
+  {
+   "cycle": 112,
+   "epoch": 27,
+   "chars_read": 1993628,
+   "valid_bpc": 26.269011527734676,
+   "test_bpc": 30.52703110223449
+  },
+  {
+   "cycle": 113,
+   "epoch": 28,
+   "chars_read": 2013628,
+   "valid_bpc": 26.43921618297257,
+   "test_bpc": 30.752520873628427
+  },
+  {
+   "cycle": 114,
+   "epoch": 28,
+   "chars_read": 2033628,
+   "valid_bpc": 26.643809350108196,
+   "test_bpc": 30.999929801285933
+  },
+  {
+   "cycle": 115,
+   "epoch": 28,
+   "chars_read": 2053628,
+   "valid_bpc": 26.847880900426105,
+   "test_bpc": 31.23729826921684
+  },
+  {
+   "cycle": 116,
+   "epoch": 28,
+   "chars_read": 2064829,
+   "valid_bpc": 27.111399798484488,
+   "test_bpc": 31.527710744675186
+  },
+  {
+   "cycle": 117,
+   "epoch": 29,
+   "chars_read": 2084829,
+   "valid_bpc": 27.281604467512032,
+   "test_bpc": 31.753200539272694
+  },
+  {
+   "cycle": 118,
+   "epoch": 29,
+   "chars_read": 2104829,
+   "valid_bpc": 27.486197644252655,
+   "test_bpc": 32.000609486917476
+  },
+  {
+   "cycle": 119,
+   "epoch": 29,
+   "chars_read": 2124829,
+   "valid_bpc": 27.690269210753865,
+   "test_bpc": 32.23797797768514
+  },
+  {
+   "cycle": 120,
+   "epoch": 29,
+   "chars_read": 2136030,
+   "valid_bpc": 27.953788115034968,
+   "test_bpc": 32.52839046458719
+  },
+  {
+   "cycle": 121,
+   "epoch": 30,
+   "chars_read": 2156030,
+   "valid_bpc": 28.123992791487748,
+   "test_bpc": 32.75388027167901
+  },
+  {
+   "cycle": 122,
+   "epoch": 30,
+   "chars_read": 2176030,
+   "valid_bpc": 28.32858597340033,
+   "test_bpc": 33.00128923008626
+  },
+  {
+   "cycle": 123,
+   "epoch": 30,
+   "chars_read": 2196030,
+   "valid_bpc": 28.53265754861572,
+   "test_bpc": 33.23865773315076
+  },
+  {
+   "cycle": 124,
+   "epoch": 30,
+   "chars_read": 2207231,
+   "valid_bpc": 28.79617645624753,
+   "test_bpc": 33.52907022621484
+  },
+  {
+   "cycle": 125,
+   "epoch": 31,
+   "chars_read": 2227231,
+   "valid_bpc": 28.96638113669853,
+   "test_bpc": 33.7545600400344
+  },
+  {
+   "cycle": 126,
+   "epoch": 31,
+   "chars_read": 2247231,
+   "valid_bpc": 29.170974321396024,
+   "test_bpc": 34.00196900423684
+  },
+  {
+   "cycle": 127,
+   "epoch": 31,
+   "chars_read": 2267231,
+   "valid_bpc": 29.375045901303682,
+   "test_bpc": 34.23933751392277
+  },
+  {
+   "cycle": 128,
+   "epoch": 31,
+   "chars_read": 2278432,
+   "valid_bpc": 29.638564810739727,
+   "test_bpc": 34.52975001030488
+  },
+  {
+   "cycle": 129,
+   "epoch": 32,
+   "chars_read": 2298432,
+   "valid_bpc": 29.808769493343615,
+   "test_bpc": 34.755239827747076
+  },
+  {
+   "cycle": 130,
+   "epoch": 32,
+   "chars_read": 2318432,
+   "valid_bpc": 30.01336267954067,
+   "test_bpc": 35.00264879507003
+  },
+  {
+   "cycle": 131,
+   "epoch": 32,
+   "chars_read": 2338432,
+   "valid_bpc": 30.21743426197496,
+   "test_bpc": 35.24001730832132
+  },
+  {
+   "cycle": 132,
+   "epoch": 32,
+   "chars_read": 2349633,
+   "valid_bpc": 30.480953172382506,
+   "test_bpc": 35.530429806490076
+  },
+  {
+   "cycle": 133,
+   "epoch": 33,
+   "chars_read": 2369633,
+   "valid_bpc": 30.651157856145648,
+   "test_bpc": 35.75591962588293
+  },
+  {
+   "cycle": 134,
+   "epoch": 33,
+   "chars_read": 2389633,
+   "valid_bpc": 30.85575104315016,
+   "test_bpc": 36.00332859488614
+  },
+  {
+   "cycle": 135,
+   "epoch": 33,
+   "chars_read": 2409633,
+   "valid_bpc": 31.05982262694494,
+   "test_bpc": 36.24069711005727
+  },
+  {
+   "cycle": 136,
+   "epoch": 33,
+   "chars_read": 2420834,
+   "valid_bpc": 31.323341537875603,
+   "test_bpc": 36.53110960918804
+  },
+  {
+   "cycle": 137,
+   "epoch": 34,
+   "chars_read": 2440834,
+   "valid_bpc": 31.493546222262957,
+   "test_bpc": 36.75659942963126
+  },
+  {
+   "cycle": 138,
+   "epoch": 34,
+   "chars_read": 2460834,
+   "valid_bpc": 31.698139409702254,
+   "test_bpc": 37.00400839953924
+  },
+  {
+   "cycle": 139,
+   "epoch": 34,
+   "chars_read": 2480834,
+   "valid_bpc": 31.90221099422962,
+   "test_bpc": 37.24137691574411
+  },
+  {
+   "cycle": 140,
+   "epoch": 34,
+   "chars_read": 2492035,
+   "valid_bpc": 32.16572990544196,
+   "test_bpc": 37.53178941539292
+  },
+  {
+   "cycle": 141,
+   "epoch": 35,
+   "chars_read": 2512035,
+   "valid_bpc": 32.33593459016542,
+   "test_bpc": 37.75727923640169
+  },
+  {
+   "cycle": 142,
+   "epoch": 35,
+   "chars_read": 2532035,
+   "valid_bpc": 32.54052777783885,
+   "test_bpc": 38.00468820679685
+  },
+  {
+   "cycle": 143,
+   "epoch": 35,
+   "chars_read": 2552035,
+   "valid_bpc": 32.74459936276065,
+   "test_bpc": 38.24205672355836
+  },
+  {
+   "cycle": 144,
+   "epoch": 35,
+   "chars_read": 2563236,
+   "valid_bpc": 33.00811827412467,
+   "test_bpc": 38.532469223486096
+  },
+  {
+   "cycle": 145,
+   "epoch": 36,
+   "chars_read": 2583236,
+   "valid_bpc": 33.178322959029124,
+   "test_bpc": 38.75795904479942
+  },
+  {
+   "cycle": 146,
+   "epoch": 36,
+   "chars_read": 2603236,
+   "valid_bpc": 33.3829161468286,
+   "test_bpc": 39.00536801545691
+  },
+  {
+   "cycle": 147,
+   "epoch": 36,
+   "chars_read": 2623236,
+   "valid_bpc": 33.58698773196281,
+   "test_bpc": 39.24273653251815
+  },
+  {
+   "cycle": 148,
+   "epoch": 36,
+   "chars_read": 2634437,
+   "valid_bpc": 33.8505066434085,
+   "test_bpc": 39.53314903259608
+  },
+  {
+   "cycle": 149,
+   "epoch": 37,
+   "chars_read": 2654437,
+   "valid_bpc": 34.02071132841041,
+   "test_bpc": 39.75863885407338
+  },
+  {
+   "cycle": 150,
+   "epoch": 37,
+   "chars_read": 2674437,
+   "valid_bpc": 34.22530451627776,
+   "test_bpc": 40.00604782487212
+  },
+  {
+   "cycle": 151,
+   "epoch": 37,
+   "chars_read": 2694437,
+   "valid_bpc": 34.42937610152636,
+   "test_bpc": 40.24341634209475
+  },
+  {
+   "cycle": 152,
+   "epoch": 37,
+   "chars_read": 2705638,
+   "valid_bpc": 34.69289501301601,
+   "test_bpc": 40.533828842253556
+  },
+  {
+   "cycle": 153,
+   "epoch": 38,
+   "chars_read": 2725638,
+   "valid_bpc": 34.863099698070386,
+   "test_bpc": 40.75931866381916
+  },
+  {
+   "cycle": 154,
+   "epoch": 38,
+   "chars_read": 2745638,
+   "valid_bpc": 35.067692885974296,
+   "test_bpc": 41.00672763469395
+  },
+  {
+   "cycle": 155,
+   "epoch": 38,
+   "chars_read": 2765638,
+   "valid_bpc": 35.27176447128448,
+   "test_bpc": 41.2440961520035
+  },
+  {
+   "cycle": 156,
+   "epoch": 38,
+   "chars_read": 2776839,
+   "valid_bpc": 35.535283382797815,
+   "test_bpc": 41.534508652205844
+  },
+  {
+   "cycle": 157,
+   "epoch": 39,
+   "chars_read": 2796839,
+   "valid_bpc": 35.70548806788045,
+   "test_bpc": 41.759998473819
+  },
+  {
+   "cycle": 158,
+   "epoch": 39,
+   "chars_read": 2816839,
+   "valid_bpc": 35.91008125580405,
+   "test_bpc": 42.00740744473474
+  },
+  {
+   "cycle": 159,
+   "epoch": 39,
+   "chars_read": 2836839,
+   "valid_bpc": 36.11415284114738,
+   "test_bpc": 42.244775962091076
+  },
+  {
+   "cycle": 160,
+   "epoch": 39,
+   "chars_read": 2848040,
+   "valid_bpc": 36.377671752673464,
+   "test_bpc": 42.535188462316874
+  },
+  {
+   "cycle": 161,
+   "epoch": 40,
+   "chars_read": 2868040,
+   "valid_bpc": 36.54787643777132,
+   "test_bpc": 42.76067828395563
+  },
+  {
+   "cycle": 162,
+   "epoch": 40,
+   "chars_read": 2888040,
+   "valid_bpc": 36.75246962570551,
+   "test_bpc": 43.00808725489343
+  },
+  {
+   "cycle": 163,
+   "epoch": 40,
+   "chars_read": 2908040,
+   "valid_bpc": 36.9565412110667,
+   "test_bpc": 43.245455772274966
+  },
+  {
+   "cycle": 164,
+   "epoch": 40,
+   "chars_read": 2919241,
+   "valid_bpc": 37.22006012259966,
+   "test_bpc": 43.53586827251339
+  },
+  {
+   "cycle": 165,
+   "epoch": 41,
+   "chars_read": 2939241,
+   "valid_bpc": 37.3902648077057,
+   "test_bpc": 43.76135809416592
+  },
+  {
+   "cycle": 166,
+   "epoch": 41,
+   "chars_read": 2959241,
+   "valid_bpc": 37.59485799564559,
+   "test_bpc": 44.0087670651156
+  },
+  {
+   "cycle": 167,
+   "epoch": 41,
+   "chars_read": 2979241,
+   "valid_bpc": 37.7989295810164,
+   "test_bpc": 44.246135582510696
+  },
+  {
+   "cycle": 168,
+   "epoch": 41,
+   "chars_read": 2990442,
+   "valid_bpc": 38.06244849255305,
+   "test_bpc": 44.53654808275592
+  },
+  {
+   "cycle": 169,
+   "epoch": 42,
+   "chars_read": 3010442,
+   "valid_bpc": 38.2326531776635,
+   "test_bpc": 44.762037904415884
+  },
+  {
+   "cycle": 170,
+   "epoch": 42,
+   "chars_read": 3030442,
+   "valid_bpc": 38.43724636560648,
+   "test_bpc": 45.00944687537194
+  },
+  {
+   "cycle": 171,
+   "epoch": 42,
+   "chars_read": 3050442,
+   "valid_bpc": 38.64131795098246,
+   "test_bpc": 45.24681539277435
+  },
+  {
+   "cycle": 172,
+   "epoch": 42,
+   "chars_read": 3061643,
+   "valid_bpc": 38.904836862521094,
+   "test_bpc": 45.53722789302324
+  },
+  {
+   "cycle": 173,
+   "epoch": 43,
+   "chars_read": 3081643,
+   "valid_bpc": 39.07504154763392,
+   "test_bpc": 45.7627177146872
+  },
+  {
+   "cycle": 174,
+   "epoch": 43,
+   "chars_read": 3101643,
+   "valid_bpc": 39.279634735578554,
+   "test_bpc": 46.0101266856467
+  },
+  {
+   "cycle": 175,
+   "epoch": 43,
+   "chars_read": 3121643,
+   "valid_bpc": 39.48370632095732,
+   "test_bpc": 46.24749520305305
+  },
+  {
+   "cycle": 176,
+   "epoch": 43,
+   "chars_read": 3132844,
+   "valid_bpc": 39.74722523249704,
+   "test_bpc": 46.5379077033039
+  },
+  {
+   "cycle": 177,
+   "epoch": 44,
+   "chars_read": 3152844,
+   "valid_bpc": 39.91742991761114,
+   "test_bpc": 46.76339752497002
+  },
+  {
+   "cycle": 178,
+   "epoch": 44,
+   "chars_read": 3172844,
+   "valid_bpc": 40.12202310555666,
+   "test_bpc": 47.01080649593138
+  },
+  {
+   "cycle": 179,
+   "epoch": 44,
+   "chars_read": 3192844,
+   "valid_bpc": 40.32609469093693,
+   "test_bpc": 47.24817501333983
+  },
+  {
+   "cycle": 180,
+   "epoch": 44,
+   "chars_read": 3204045,
+   "valid_bpc": 40.589613602477215,
+   "test_bpc": 47.53858751359175
+  },
+  {
+   "cycle": 181,
+   "epoch": 45,
+   "chars_read": 3224045,
+   "valid_bpc": 40.75981828759201,
+   "test_bpc": 47.76407733525902
+  },
+  {
+   "cycle": 182,
+   "epoch": 45,
+   "chars_read": 3244045,
+   "valid_bpc": 40.964411475538014,
+   "test_bpc": 48.01148630622138
+  },
+  {
+   "cycle": 183,
+   "epoch": 45,
+   "chars_read": 3264045,
+   "valid_bpc": 41.16848306091909,
+   "test_bpc": 48.24885482363097
+  },
+  {
+   "cycle": 184,
+   "epoch": 45,
+   "chars_read": 3275246,
+   "valid_bpc": 41.432001972459695,
+   "test_bpc": 48.53926732388347
+  },
+  {
+   "cycle": 185,
+   "epoch": 46,
+   "chars_read": 3295246,
+   "valid_bpc": 41.602206657574854,
+   "test_bpc": 48.76475714555136
+  },
+  {
+   "cycle": 186,
+   "epoch": 46,
+   "chars_read": 3315246,
+   "valid_bpc": 41.80679984552111,
+   "test_bpc": 49.01216611651426
+  },
+  {
+   "cycle": 187,
+   "epoch": 46,
+   "chars_read": 3335246,
+   "valid_bpc": 42.010871430902625,
+   "test_bpc": 49.24953463392447
+  },
+  {
+   "cycle": 188,
+   "epoch": 46,
+   "chars_read": 3346447,
+   "valid_bpc": 42.2743903424434,
+   "test_bpc": 49.53994713417727
+  },
+  {
+   "cycle": 189,
+   "epoch": 47,
+   "chars_read": 3366447,
+   "valid_bpc": 42.44459502755876,
+   "test_bpc": 49.765436955845495
+  },
+  {
+   "cycle": 190,
+   "epoch": 47,
+   "chars_read": 3386447,
+   "valid_bpc": 42.649188215505156,
+   "test_bpc": 50.012845926808694
+  },
+  {
+   "cycle": 191,
+   "epoch": 47,
+   "chars_read": 3406447,
+   "valid_bpc": 42.8532598008869,
+   "test_bpc": 50.250214444219225
+  },
+  {
+   "cycle": 192,
+   "epoch": 47,
+   "chars_read": 3417648,
+   "valid_bpc": 43.11677871242777,
+   "test_bpc": 50.5406269444722
+  },
+  {
+   "cycle": 193,
+   "epoch": 48,
+   "chars_read": 3437648,
+   "valid_bpc": 43.28698339754324,
+   "test_bpc": 50.766116766140605
+  },
+  {
+   "cycle": 194,
+   "epoch": 48,
+   "chars_read": 3457648,
+   "valid_bpc": 43.4915765854897,
+   "test_bpc": 51.01352573710394
+  },
+  {
+   "cycle": 195,
+   "epoch": 48,
+   "chars_read": 3477648,
+   "valid_bpc": 43.695648170871586,
+   "test_bpc": 51.25089425451468
+  },
+  {
+   "cycle": 196,
+   "epoch": 48,
+   "chars_read": 3488849,
+   "valid_bpc": 43.95916708241249,
+   "test_bpc": 51.54130675476772
+  },
+  {
+   "cycle": 197,
+   "epoch": 49,
+   "chars_read": 3508849,
+   "valid_bpc": 44.12937176752803,
+   "test_bpc": 51.766796576436235
+  },
+  {
+   "cycle": 198,
+   "epoch": 49,
+   "chars_read": 3528849,
+   "valid_bpc": 44.333964955474535,
+   "test_bpc": 52.01420554739966
+  },
+  {
+   "cycle": 199,
+   "epoch": 49,
+   "chars_read": 3548849,
+   "valid_bpc": 44.53803654085647,
+   "test_bpc": 52.25157406481048
+  },
+  {
+   "cycle": 200,
+   "epoch": 49,
+   "chars_read": 3560050,
+   "valid_bpc": 44.801555452397416,
+   "test_bpc": 52.54198656506358
+  },
+  {
+   "cycle": 201,
+   "epoch": 50,
+   "chars_read": 3580050,
+   "valid_bpc": 44.97176013751297,
+   "test_bpc": 52.76747638673214
+  },
+  {
+   "cycle": 202,
+   "epoch": 50,
+   "chars_read": 3600050,
+   "valid_bpc": 45.1763533254595,
+   "test_bpc": 53.01488535769562
+  },
+  {
+   "cycle": 203,
+   "epoch": 50,
+   "chars_read": 3620050,
+   "valid_bpc": 45.38042491084149,
+   "test_bpc": 53.25225387510649
+  },
+  {
+   "cycle": 204,
+   "epoch": 50,
+   "chars_read": 3631251,
+   "valid_bpc": 45.64394382238244,
+   "test_bpc": 53.542666375359616
+  },
+  {
+   "cycle": 205,
+   "epoch": 51,
+   "chars_read": 3651251,
+   "valid_bpc": 45.81414850749802,
+   "test_bpc": 53.768156197028205
+  },
+  {
+   "cycle": 206,
+   "epoch": 51,
+   "chars_read": 3671251,
+   "valid_bpc": 46.01874169544456,
+   "test_bpc": 54.0155651679917
+  },
+  {
+   "cycle": 207,
+   "epoch": 51,
+   "chars_read": 3691251,
+   "valid_bpc": 46.22281328082657,
+   "test_bpc": 54.252933685402596
+  },
+  {
+   "cycle": 208,
+   "epoch": 51,
+   "chars_read": 3702452,
+   "valid_bpc": 46.48633219236752,
+   "test_bpc": 54.54334618565574
+  },
+  {
+   "cycle": 209,
+   "epoch": 52,
+   "chars_read": 3722452,
+   "valid_bpc": 46.65653687748311,
+   "test_bpc": 54.76883600732435
+  },
+  {
+   "cycle": 210,
+   "epoch": 52,
+   "chars_read": 3742452,
+   "valid_bpc": 46.86113006542966,
+   "test_bpc": 55.016244978287865
+  },
+  {
+   "cycle": 211,
+   "epoch": 52,
+   "chars_read": 3762452,
+   "valid_bpc": 47.06520165081167,
+   "test_bpc": 55.25361349569878
+  },
+  {
+   "cycle": 212,
+   "epoch": 52,
+   "chars_read": 3773653,
+   "valid_bpc": 47.32872056235263,
+   "test_bpc": 55.54402599595193
+  },
+  {
+   "cycle": 213,
+   "epoch": 53,
+   "chars_read": 3793653,
+   "valid_bpc": 47.498925247468236,
+   "test_bpc": 55.76951581762055
+  },
+  {
+   "cycle": 214,
+   "epoch": 53,
+   "chars_read": 3813653,
+   "valid_bpc": 47.703518435414786,
+   "test_bpc": 56.01692478858407
+  },
+  {
+   "cycle": 215,
+   "epoch": 53,
+   "chars_read": 3833653,
+   "valid_bpc": 47.907590020796796,
+   "test_bpc": 56.254293305995
+  },
+  {
+   "cycle": 216,
+   "epoch": 53,
+   "chars_read": 3844854,
+   "valid_bpc": 48.17110893233777,
+   "test_bpc": 56.544705806248146
+  },
+  {
+   "cycle": 217,
+   "epoch": 54,
+   "chars_read": 3864854,
+   "valid_bpc": 48.34131361745337,
+   "test_bpc": 56.77019562791676
+  },
+  {
+   "cycle": 218,
+   "epoch": 54,
+   "chars_read": 3884854,
+   "valid_bpc": 48.54590680539992,
+   "test_bpc": 57.0176045988803
+  },
+  {
+   "cycle": 219,
+   "epoch": 54,
+   "chars_read": 3904854,
+   "valid_bpc": 48.74997839078195,
+   "test_bpc": 57.25497311629121
+  },
+  {
+   "cycle": 220,
+   "epoch": 54,
+   "chars_read": 3916055,
+   "valid_bpc": 49.01349730232291,
+   "test_bpc": 57.545385616544365
+  },
+  {
+   "cycle": 221,
+   "epoch": 55,
+   "chars_read": 3936055,
+   "valid_bpc": 49.18370198743852,
+   "test_bpc": 57.770875438213
+  },
+  {
+   "cycle": 222,
+   "epoch": 55,
+   "chars_read": 3956055,
+   "valid_bpc": 49.38829517538507,
+   "test_bpc": 58.01828440917653
+  },
+  {
+   "cycle": 223,
+   "epoch": 55,
+   "chars_read": 3976055,
+   "valid_bpc": 49.59236676076709,
+   "test_bpc": 58.25565292658746
+  },
+  {
+   "cycle": 224,
+   "epoch": 55,
+   "chars_read": 3987256,
+   "valid_bpc": 49.85588567230806,
+   "test_bpc": 58.546065426840606
+  },
+  {
+   "cycle": 225,
+   "epoch": 56,
+   "chars_read": 4007256,
+   "valid_bpc": 50.02609035742366,
+   "test_bpc": 58.77155524850923
+  },
+  {
+   "cycle": 226,
+   "epoch": 56,
+   "chars_read": 4027256,
+   "valid_bpc": 50.230683545370226,
+   "test_bpc": 59.01896421947277
+  },
+  {
+   "cycle": 227,
+   "epoch": 56,
+   "chars_read": 4047256,
+   "valid_bpc": 50.43475513075224,
+   "test_bpc": 59.25633273688369
+  },
+  {
+   "cycle": 228,
+   "epoch": 56,
+   "chars_read": 4058457,
+   "valid_bpc": 50.698274042293214,
+   "test_bpc": 59.54674523713686
+  },
+  {
+   "cycle": 229,
+   "epoch": 57,
+   "chars_read": 4078457,
+   "valid_bpc": 50.868478727408814,
+   "test_bpc": 59.77223505880548
+  },
+  {
+   "cycle": 230,
+   "epoch": 57,
+   "chars_read": 4098457,
+   "valid_bpc": 51.07307191535537,
+   "test_bpc": 60.01964402976901
+  },
+  {
+   "cycle": 231,
+   "epoch": 57,
+   "chars_read": 4118457,
+   "valid_bpc": 51.277143500737395,
+   "test_bpc": 60.25701254717993
+  },
+  {
+   "cycle": 232,
+   "epoch": 57,
+   "chars_read": 4129658,
+   "valid_bpc": 51.540662412278365,
+   "test_bpc": 60.547425047433094
+  },
+  {
+   "cycle": 233,
+   "epoch": 58,
+   "chars_read": 4149658,
+   "valid_bpc": 51.71086709739396,
+   "test_bpc": 60.77291486910171
+  },
+  {
+   "cycle": 234,
+   "epoch": 58,
+   "chars_read": 4169658,
+   "valid_bpc": 51.915460285340515,
+   "test_bpc": 61.02032384006525
+  },
+  {
+   "cycle": 235,
+   "epoch": 58,
+   "chars_read": 4189658,
+   "valid_bpc": 52.11953187072254,
+   "test_bpc": 61.25769235747618
+  },
+  {
+   "cycle": 236,
+   "epoch": 58,
+   "chars_read": 4200859,
+   "valid_bpc": 52.38305078226352,
+   "test_bpc": 61.548104857729335
+  },
+  {
+   "cycle": 237,
+   "epoch": 59,
+   "chars_read": 4220859,
+   "valid_bpc": 52.553255467379124,
+   "test_bpc": 61.773594679397966
+  },
+  {
+   "cycle": 238,
+   "epoch": 59,
+   "chars_read": 4240859,
+   "valid_bpc": 52.757848655325674,
+   "test_bpc": 62.021003650361486
+  },
+  {
+   "cycle": 239,
+   "epoch": 59,
+   "chars_read": 4260859,
+   "valid_bpc": 52.9619202407077,
+   "test_bpc": 62.25837216777242
+  },
+  {
+   "cycle": 240,
+   "epoch": 59,
+   "chars_read": 4272060,
+   "valid_bpc": 53.22543915224867,
+   "test_bpc": 62.54878466802558
+  }
+ ],
+ "best_by_valid": {
+  "cycle": 11,
+  "epoch": 2,
+  "chars_read": 202402,
+  "valid_bpc": 5.826424489301484,
+  "test_bpc": 6.196908609517639
+ },
+ "final": {
+  "cycle": 240,
+  "epoch": 59,
+  "chars_read": 4272060,
+  "valid_bpc": 53.22543915224867,
+  "test_bpc": 62.54878466802558
+ }
+}

@@ -1,0 +1,36 @@
+mix_all.py:96: RuntimeWarning: divide by zero encountered in log
+  one = {n: float(-np.log(Pt[:, k]).mean() / LOG2) for k, n in enumerate(names)}
+{
+ "corpus": "zenn",
+ "names": [
+  "zenn_iid",
+  "3-gram",
+  "cache H=300",
+  "cache H=3000"
+ ],
+ "weights": {
+  "zenn_iid": 0.40885047347649345,
+  "3-gram": 0.5365297907849694,
+  "cache H=300": 0.05461973573850762,
+  "cache H=3000": 2.9974572377386186e-14
+ },
+ "valid": {
+  "mix": 4.427726177770556
+ },
+ "test": {
+  "mix": 4.869040393422883,
+  "single": {
+   "zenn_iid": 5.362774478577588,
+   "3-gram": 5.208685201294962,
+   "cache H=300": Infinity,
+   "cache H=3000": Infinity
+  },
+  "drop_one": {
+   "zenn_iid": 5.047737495492386,
+   "3-gram": 5.17985472687176,
+   "cache H=300": 4.887562122232583,
+   "cache H=3000": 4.869040393422885
+  }
+ },
+ "test_counted": 23168
+}

@@ -1,0 +1,40 @@
+mix_all.py:96: RuntimeWarning: divide by zero encountered in log
+  one = {n: float(-np.log(Pt[:, k]).mean() / LOG2) for k, n in enumerate(names)}
+{
+ "corpus": "aozora",
+ "names": [
+  "dyn aozora_iid_48k",
+  "dyn aozora_iid_24k",
+  "4-gram",
+  "cache H=300",
+  "cache H=3000"
+ ],
+ "weights": {
+  "dyn aozora_iid_48k": 0.628801421444811,
+  "dyn aozora_iid_24k": 0.29103745452599133,
+  "4-gram": 0.06978523543921836,
+  "cache H=300": 0.01037588858996967,
+  "cache H=3000": 3.4646605116696774e-26
+ },
+ "valid": {
+  "mix": 3.819998541574325
+ },
+ "test": {
+  "mix": 3.8387678223014805,
+  "single": {
+   "dyn aozora_iid_48k": 3.904797718655565,
+   "dyn aozora_iid_24k": 4.01181804031812,
+   "4-gram": 5.047791590250191,
+   "cache H=300": Infinity,
+   "cache H=3000": Infinity
+  },
+  "drop_one": {
+   "dyn aozora_iid_48k": 3.961761784641774,
+   "dyn aozora_iid_24k": 3.8686601246021852,
+   "4-gram": 3.852594504164614,
+   "cache H=300": 3.8451314270368355,
+   "cache H=3000": 3.8387678223015227
+  }
+ },
+ "test_counted": 315264
+}

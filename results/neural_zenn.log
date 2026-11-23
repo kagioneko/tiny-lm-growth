@@ -1,0 +1,3 @@
+iid    params=940,928 最良 step 1400: valid 4.862 test 5.363  (1016.2s)
+stream params=940,928 最良 step 2800: valid 4.865 test 5.337  (1036.7s)
+sleep  params=940,928 最良 step 2500: valid 4.790 test 5.313  (1046.2s)

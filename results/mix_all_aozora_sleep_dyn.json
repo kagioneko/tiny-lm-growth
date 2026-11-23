@@ -1,0 +1,38 @@
+{
+ "corpus": "aozora",
+ "names": [
+  "sleep_dyn aozora_iid_48k",
+  "sleep_dyn aozora_iid_24k",
+  "4-gram",
+  "cache H=300",
+  "cache H=3000"
+ ],
+ "weights": {
+  "sleep_dyn aozora_iid_48k": 0.6044486585344825,
+  "sleep_dyn aozora_iid_24k": 0.32413427117250143,
+  "4-gram": 0.060220122234478785,
+  "cache H=300": 0.011196948058512811,
+  "cache H=3000": 1.2810107943507477e-14
+ },
+ "valid": {
+  "mix": 3.7775304510859113
+ },
+ "test": {
+  "mix": 3.7909518760063166,
+  "single": {
+   "sleep_dyn aozora_iid_48k": 3.8761049216558847,
+   "sleep_dyn aozora_iid_24k": 3.976221018007027,
+   "4-gram": 5.047791590250191,
+   "cache H=300": null,
+   "cache H=3000": null
+  },
+  "drop_one": {
+   "sleep_dyn aozora_iid_48k": 3.926164246710614,
+   "sleep_dyn aozora_iid_24k": 3.834623271997843,
+   "4-gram": 3.80301086506512,
+   "cache H=300": 3.7972328920220164,
+   "cache H=3000": 3.790951876006303
+  }
+ },
+ "test_counted": 315264
+}

@@ -1,0 +1,6 @@
+[aozora_iid_48k] valid lr=0: 4.1814  (53s)
+[aozora_iid_48k] valid lr=1e-05: 3.9445  (176s)
+[aozora_iid_48k] valid lr=3e-05: 3.8849  (169s)
+[aozora_iid_48k] valid lr=0.0001: 3.9288  (169s)
+[aozora_iid_48k] valid lr=0.0003: 4.2438  (167s)
+[aozora_iid_48k] test: 静的 4.1392 → 動的 3.9048（lr=3e-05）

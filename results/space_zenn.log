@@ -1,0 +1,16 @@
+[zenn] base d=1: valid 6.664 test 7.013 (step 150, 3,076 params, 34.3s) {}
+[zenn] base d=2: valid 6.147 test 6.519 (step 100, 5,126 params, 11.5s) {}
+[zenn] base d=4: valid 5.739 test 6.148 (step 150, 9,226 params, 14.7s) {}
+[zenn] base d=8: valid 5.371 test 5.877 (step 100, 17,426 params, 12.0s) {}
+[zenn] base d=16: valid 5.262 test 5.857 (step 100, 33,826 params, 12.6s) {}
+[zenn] base d=32: valid 5.194 test 5.691 (step 50, 66,626 params, 10.6s) {}
+[zenn] base d=64: valid 5.168 test 5.703 (step 50, 132,226 params, 9.8s) {}
+[zenn] no_velocity+resonance d=1: valid 6.670 test 6.947 (step 1450, 2,056 params, 543.7s) {}
+[zenn] no_velocity d=2: valid 6.537 test 6.843 (step 200, 3,076 params, 24.2s) {}
+[zenn] no_mass d=2: valid 6.516 test 7.114 (step 200, 4,101 params, 9.2s) {}
+[zenn] base d=2: valid 6.147 test 6.519 (step 100, 5,126 params, 6.6s) {}
+[zenn] emc2 d=2: valid 6.147 test 6.519 (step 100, 5,127 params, 7.8s) {'c2': 0.0346}
+[zenn] relativity d=2: valid 6.146 test 6.516 (step 100, 5,127 params, 16.3s) {'gamma': 0.3144}
+[zenn] tunnel d=2: valid 5.752 test 6.142 (step 950, 5,127 params, 182.1s) {'tunnel_p': 0.2905}
+[zenn] inertia d=2: valid 6.150 test 6.533 (step 600, 5,127 params, 110.1s) {'rho': 0.0188}
+[zenn] inertia d=16: valid 5.217 test 5.678 (step 250, 33,827 params, 51.6s) {'rho': 0.2018}
